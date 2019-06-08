@@ -10,6 +10,9 @@ import getVisibleExpenses from './selectors/expenses';
 import './styles/styles.scss'; // Import CSS files
 import 'normalize.css/normalize.css'; // Reset CSS style for cross-browser development
 import 'react-dates/lib/css/_datepicker.css'; //Style the date picker widget
+import './firebase/firebase';
+
+console.log(process.env.NODE_ENV);
 
 const store = configureStore();
 store.subscribe(() => {
