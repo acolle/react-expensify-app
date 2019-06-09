@@ -33,6 +33,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -47,9 +48,11 @@ exports[`should render ExpenseForm correctly 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -87,6 +90,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />
@@ -136,6 +140,7 @@ exports[`should render ExpenseForm with expense date 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -150,9 +155,11 @@ exports[`should render ExpenseForm with expense date 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -190,6 +197,7 @@ exports[`should render ExpenseForm with expense date 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />
@@ -242,6 +250,7 @@ exports[`should render error for invalid form submission 1`] = `
       horizontalMargin={0}
       id="date"
       initialVisibleMonth={null}
+      inputIconPosition="before"
       isDayBlocked={[Function]}
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
@@ -256,9 +265,11 @@ exports[`should render error for invalid form submission 1`] = `
       onFocusChange={[Function]}
       onNextMonthClick={[Function]}
       onPrevMonthClick={[Function]}
+      openDirection="down"
       orientation="horizontal"
       phrases={
         Object {
+          "calendarLabel": "Calendar",
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
@@ -296,6 +307,7 @@ exports[`should render error for invalid form submission 1`] = `
       screenReaderInputMessage=""
       showClearDate={false}
       showDefaultInputIcon={false}
+      weekDayFormat="dd"
       withFullScreenPortal={false}
       withPortal={false}
     />

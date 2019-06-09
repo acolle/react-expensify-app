@@ -39,5 +39,4 @@ const mapDispatchToProps = (dispatch) => ({
     removeExpense: (id) => dispatch(removeExpense(id))
 });
 
-// First parenthesis is empty as we do not need the state of the store
 export default connect(mapStateToProps, mapDispatchToProps)(EditExpensePage);
